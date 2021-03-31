@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft Yahei UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.render {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 777;
+}
+
+.op {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    padding-top: 5px;
+    z-index: 888;
+}
+
+.op button {
+    color: #fff;
+    border: none;
+    background-image: linear-gradient( 45deg ,#00a1ff,#00c3ff);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: all .2s ease;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    outline: none;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.op button:hover {
+    opacity: .8;
+    transition: all .2s ease;
+}
+
+.render canvas {
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width: 800px) {
+    .render canvas {
+        width: 100%;
+    }
+}
+
+.page-display {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    opacity: 1;
+    transition: all .2s ease;
+    z-index: 999;
+}
+
+.loaded {
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.splash {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 15px;
+    font-family: Courier, Consolas;
+}
