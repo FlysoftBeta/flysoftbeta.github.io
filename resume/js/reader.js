@@ -2,7 +2,7 @@ var options = {
     cover: true,
 	file: "https://cdn.jsdelivr.net/gh/FlysoftBeta/assets/file.bin"
 }
-var current = 0;
+var current = 1;
 var pdf;
 var pages = 0;
 function getvar(name) {
@@ -81,6 +81,9 @@ function decrypt(str, pwd) {
 function play_ani() {
     document.querySelector(".loading").style.display = "none";
     document.querySelector(".loading").removeEventListener("webkitTransitionEnd", play_ani);
+}
+function error(message){
+	alert("Flysoft Reader\nJavaScript Error: "+message.toUpperCase())
 }
 function prev() {
     if (pages != 0) {
@@ -190,14 +193,14 @@ function setpage(newpage) {
     }
 }
 window.onresize = function() {
-    if (pages != 0) {
         setpage(current);
-    }
 }
 window.onload = function() {
     var pass = getvar("t");
     if (pass == false) {
-        throw "no token error";
+        error("no token error");
+		pages=0;
+		return;
     }
     pdfjsLib.GlobalWorkerOptions.workerSrc = "./js/pdf.worker.js";
     fetch(options.file, {
@@ -206,15 +209,20 @@ window.onload = function() {
     }).then(response=>response.text()).then(((data)=>{
         data = decrypt(data, pass);
         if (data == undefined) {
-            throw "invalid token error";
+            error("invalid token error");
+			pages=0;
+			return;
         }
         var doc = pdfjsLib.getDocument(data);
         doc.promise.then(function(pdfobj) {
             pdf = pdfobj;
-            pages = pdf.numPages;
             if (options.cover == true && pdf.numPages % 2 != 0) {
-                throw "invalid token error";
-            }
+                error("page error");
+				pages=0;
+				return;
+            }else{
+				pages = pdf.numPages;
+			}
             if (pages != 0) {
                 setpage(1);
             }
