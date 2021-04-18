@@ -1,6 +1,6 @@
 var options = {
     cover: true,
-	file: "https://cdn.jsdelivr.net/gh/FlysoftBeta/assets/file.bin"
+	file: "https://cdn.jsdelivr.net/gh/FlysoftBeta/assets@latest/file.bin"
 }
 var current = 1;
 var pdf;
