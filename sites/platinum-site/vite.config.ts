@@ -5,4 +5,5 @@ export default defineConfig({
     build: {
         outDir: "../../source/platinum/",
     },
+    base: "./",
 });

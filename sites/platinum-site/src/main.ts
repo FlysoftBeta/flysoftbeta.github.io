@@ -1,7 +1,6 @@
 import "./style.css";
-import { reload as reloadLang } from "./language.js";
-import { loadAll as loadSVGs } from "./svgLoader.js";
-import { load as loadBtns } from "./liveButton.js";
+import { reload as reloadLang } from "./language";
+import { load as loadBtns } from "./liveButton";
 import { FSDownloadProvider, getURL } from "./updateProvider";
 
 interface UpdateInfo {
@@ -78,7 +77,6 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.add("transition");
 
     loadBtns();
-    loadSVGs();
     reloadLang();
 
     document
