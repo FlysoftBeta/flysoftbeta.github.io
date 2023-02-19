@@ -25,3 +25,7 @@ post:
         engine: mathjax
 
 custom_css: /css/custom.css
+
+favicon: /img/favicon.png
+
+apple_touch_icon: /img/favicon.png
