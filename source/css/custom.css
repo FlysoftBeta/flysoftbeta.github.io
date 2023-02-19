@@ -49,6 +49,11 @@
     top: 16px;
 }
 
+.footer-inner {
+    padding: 3rem 2rem 2rem 3rem;
+    text-align: right;
+}
+
 @media (max-width: 576px) {
     :root {
         --body-bg-color: var(--board-bg-color);

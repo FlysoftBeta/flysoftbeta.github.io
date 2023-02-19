@@ -24,6 +24,9 @@ post:
         specific: true
         engine: mathjax
 
+footer:
+    content: '<a href="/privacy-policy" target="_blank" rel="nofollow noopener"><span>隐私政策</span></a><span> | © Flysoft</span><br><a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>'
+
 custom_css: /css/custom.css
 
 favicon: /img/favicon.png
