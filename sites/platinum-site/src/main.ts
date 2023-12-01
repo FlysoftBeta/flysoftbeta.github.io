@@ -18,7 +18,7 @@ async function fetchData(platform: string, arch: string, channels: Array<string>
         try {
             data[channel] = await (
                 await fetch(
-                    "https://flysoftbeta.cn/update/platinum/" +
+                    "/update/platinum/" +
                         channels[i] +
                         "_" +
                         platform +
