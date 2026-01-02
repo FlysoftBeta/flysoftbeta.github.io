@@ -1,8 +1,0 @@
-baseURL = 'https://flysoftbeta.top/'
-languageCode = 'en-us'
-title = "Flysoft's blog"
-theme = "hugo-bearblog"
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'

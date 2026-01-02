@@ -1,0 +1,17 @@
+title: flysoft's blog
+email: flysoftbeta@outlook.com
+description: >-
+  The place where flysoft documents the
+  experience of working with compilers/kernel/algorithms
+baseurl: ""
+url: ""
+github_username: FlysoftBeta
+
+theme: minima
+sass:
+  quiet_deps: true
+plugins:
+  - jekyll-feed
+
+# exclude:
+#  -
