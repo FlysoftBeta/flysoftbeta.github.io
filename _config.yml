@@ -5,6 +5,7 @@ description: >-
   experience of working with compilers/kernel/algorithms
 baseurl: ""
 url: ""
+permalink: /posts/:name/
 github_username: FlysoftBeta
 
 theme: minima

@@ -13,6 +13,7 @@ permalink: /projects/
 
 旧项目:
 
+- 科大讯飞学习机破解 (获得 rce, 未能提权至 root, [项目](https://github.com/FlysoftBeta-Archived/v8-exploit))
 - QQNTim: QQ插件管理器 ([源码](https://github.com/FlysoftBeta/QQNTim/))
 ![](https://raw.githubusercontent.com/FlysoftBeta/QQNTim/dev/.github/screenshot.png)
 - Platinum: 现代的浏览器 ([源码](https://github.com/Flysoft-Studio/Platinum/), [安装](https://www.123865.com/s/hfH9-kj2OA?pwd=fspl#)，曾经在 Microsoft Store 上上架)

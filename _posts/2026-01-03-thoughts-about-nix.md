@@ -28,6 +28,8 @@ echo "experimental-features = nix-command flakes" >> /etc/nix/nix.conf
 nix develop
 ```
 
+可见将这些 C/C++ 传统依赖用 `flake.lock` 统一起来的重要性（不然全部散在 `/usr/lib` `usr/include` 里面）
+
 ## 问题: 极差的兼容性与严重的割裂性
 
 虽然 Nix 在开发环境配置上表现不错，但我之前尝试将 NixOS 作为主力系统时，体验却并不美好，很显然，NixOS 有很大的问题：
