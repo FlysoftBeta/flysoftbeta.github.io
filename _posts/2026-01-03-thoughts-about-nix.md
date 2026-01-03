@@ -1,4 +1,3 @@
-```markdown
 ---
 layout:     post
 title:      "从 Haskell 构建失败到 Nix：Nix到底适合用来干啥？"
