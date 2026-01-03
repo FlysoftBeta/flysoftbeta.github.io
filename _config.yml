@@ -2,7 +2,7 @@ title: flysoft's blog
 email: flysoftbeta@outlook.com
 description: >-
   The place where flysoft documents the
-  experience of working with compilers/kernel/algorithms
+  thoughts/experience of working with compilers/kernel/algorithms
 baseurl: ""
 url: ""
 permalink: /posts/:name/
@@ -14,5 +14,5 @@ sass:
 plugins:
   - jekyll-feed
 
-# exclude:
-#  -
+exclude:
+  - Rakefile
