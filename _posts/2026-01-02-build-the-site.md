@@ -11,10 +11,10 @@ Hello world!
 
 这是我的第四个网站(大概是罢)
 
-- [minecraftsky.github.io (dead)](https://minecraftsky.github.io)
-- [flysoft.js.org (archived)](https://web.archive.org/web/20201201181442/https://flysoft.js.org/)
-- [flysoft.tk & flysoftbeta.cn (archived)](https://web.archive.org/web/20220628062736/https://flysoft.tk/)
-- [docs.flysoft.tk/pe (archived)](https://github.com/Flysoft-Studio/FlysoftPE/tree/master/wiki) 
+- [minecraftsky.github.io (dead)](https://minecraftsky.github.io){:target="_blank"}
+- [flysoft.js.org (archived)](https://web.archive.org/web/20201201181442/https://flysoft.js.org/){:target="_blank"}
+- [flysoft.tk & flysoftbeta.cn (archived)](https://web.archive.org/web/20220628062736/https://flysoft.tk/){:target="_blank"}
+- [docs.flysoft.tk/pe (archived)](https://github.com/Flysoft-Studio/FlysoftPE/tree/master/wiki){:target="_blank"}
 - [flysoftbeta.top](flysoftbeta.top)
 
 ## 建站选择

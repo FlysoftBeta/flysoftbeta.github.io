@@ -22,4 +22,4 @@ categories:
 在我看来，编译器实现自举是十分重要的。
 编译器本身也是一个软件，也需要编译器算法带给它的优化，
 像上文的 MLA 的优化就完全可以封装起来用。
-因此自举也是 [Windcharge 引擎](/windcharge) 的一重要目标。
+因此自举也是 [Windcharge 引擎](/windcharge){:target="_blank"} 的一重要目标。

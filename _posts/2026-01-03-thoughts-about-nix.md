@@ -5,7 +5,7 @@ date:       2026-01-03T11:53:46+08:00
 categories: thoughts nix nixos package-manager os
 ---
 
-最近在尝试构建一个基于 Haskell 的[编程语言原型项目](https://github.com/SchrodingerZhu/reussir)，却在环境配置上吃了苦头。由于该项目对依赖版本要求极严，即便我多次尝试用 `ghcup` 调整环境，依然卡在了 MLIR 的版本兼容性上。
+最近在尝试构建一个基于 Haskell 的[编程语言原型项目](https://github.com/SchrodingerZhu/reussir){:target="_blank"}，却在环境配置上吃了苦头。由于该项目对依赖版本要求极严，即便我多次尝试用 `ghcup` 调整环境，依然卡在了 MLIR 的版本兼容性上。
 
 正当准备放弃时，发现项目支持 Nix Flakes。抱着死马当活马医的心态试了一把，结果构建过程异常顺畅。借此机会，简单聊聊我对 Nix 的看法。
 
@@ -53,5 +53,5 @@ nix develop
 
 ## 结语
 
-Nix 就像一把双刃剑。作为开发工具，它是解决环境可复现性的利器；但作为NixOS操作系统，它要求用户必须全盘接受其洁癖般的世界观，
-这在任何情况下都没有丝毫可行性。也许 Nix 最好的归宿是单个项目的依赖管理罢。
+Nix 作为开发工具，能够减轻我配环境的痛苦；但作为一个操作系统，它洁癖般的世界观实在令人难以接受。
+也许 Nix 最好的归宿就是 C/C++ 的依赖管理罢。
