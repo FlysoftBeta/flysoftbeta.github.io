@@ -9,7 +9,7 @@ categories: thoughts nix nixos package-manager os
 
 正当准备放弃时，发现项目支持 Nix Flakes。抱着死马当活马医的心态试了一把，结果构建过程异常顺畅。借此机会，简单聊聊我对 Nix 的看法。
 
-## 优势：环境隔离与复现的终极方案
+## 优势: 环境隔离与复现的终极方案
 
 对于依赖复杂的项目，Nix 可能是目前最优雅的解法。
 
@@ -28,7 +28,7 @@ echo "experimental-features = nix-command flakes" >> /etc/nix/nix.conf
 nix develop
 ```
 
-## 门槛：陡峭的学习曲线与碎片化
+## 问题: 极差的兼容性与严重的割裂性
 
 虽然 Nix 在开发环境配置上表现不错，但我之前尝试将 NixOS 作为主力系统时，体验却并不美好，很显然，NixOS 有很大的问题：
 
