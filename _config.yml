@@ -8,9 +8,15 @@ url: ""
 permalink: /posts/:name/
 github_username: FlysoftBeta
 
+markdown: kramdown
+kramdown:
+  math_engine: katex
+
 theme: minima
 sass:
   quiet_deps: true
+  silence_deprecations:
+    - import
 plugins:
   - jekyll-feed
 

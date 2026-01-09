@@ -9,10 +9,9 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "jekyll", "~> 4.4"
-gem "minima", "~> 2.5"
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
+gem "minima", github: "jekyll/minima", ref: "bf9ef989246b63536e9db61082f663f1a6d4d9ce"
+gem "kramdown-math-katex", "~> 1.0"
+gem "jekyll-feed", "~> 0.12"
 
 platforms :windows do
   gem "tzinfo", ">= 1", "< 3"
@@ -20,5 +19,4 @@ platforms :windows do
   gem "wdm", "~> 0.1"
 end
 
-gem "http_parser.rb", "~> 0.8.0"
 gem 'logger'
