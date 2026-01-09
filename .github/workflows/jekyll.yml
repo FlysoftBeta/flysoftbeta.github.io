@@ -23,6 +23,7 @@ jobs:
         with:
           ruby-version: "4.0"
           bundler-cache: true
+          cache-version: 1
       - id: pages
         uses: actions/configure-pages@v5
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
