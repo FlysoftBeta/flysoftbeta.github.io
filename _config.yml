@@ -1,8 +1,7 @@
 title: flysoft's blog
 email: flysoftbeta@outlook.com
 description: >-
-  The place where flysoft documents the
-  thoughts/experience of working with compilers/kernel/algorithms
+  the thoughts/ideas with compilers/kernel/algorithms
 baseurl: ""
 url: ""
 permalink: /posts/:name/
