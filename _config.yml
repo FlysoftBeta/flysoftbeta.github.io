@@ -13,6 +13,10 @@ kramdown:
   math_engine: katex
 
 theme: minima
+minima:
+  social_links:
+    - { icon: github, url: "https://github.com/FlysoftBeta" }
+    - { icon: bilibili, url: "https://space.bilibili.com/3493090792835786" }
 sass:
   quiet_deps: true
   silence_deprecations:
