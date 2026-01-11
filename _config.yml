@@ -1,9 +1,11 @@
 title: flysoft's blog
-email: flysoftbeta@outlook.com
+author:
+  name: FlysoftBeta
+  email: flysoftbeta@outlook.com
 description: >-
-  the thoughts/ideas with compilers/kernel/algorithms
+  the place for thoughts/ideas with compilers/kernel/algorithms
 baseurl: ""
-url: ""
+url: "https://flysoftbeta.top"
 permalink: /posts/:name/
 github_username: FlysoftBeta
 
@@ -22,6 +24,7 @@ sass:
     - import
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - Rakefile
