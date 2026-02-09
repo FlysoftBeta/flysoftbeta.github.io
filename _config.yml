@@ -3,7 +3,7 @@ author:
   name: FlysoftBeta
   email: flysoftbeta@outlook.com
 description: >-
-  the place for thoughts/ideas with compilers/kernel/algorithms
+  computer science lab for half-baked ideas
 baseurl: ""
 url: "https://flysoftbeta.top"
 permalink: /posts/:name/
