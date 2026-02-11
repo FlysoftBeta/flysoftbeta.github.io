@@ -7,7 +7,7 @@ categories:
 
 ## 0. 引入
 
-继 Scheduler，这次我来给我的 Userspace OS 设计文件系统。
+继 Scheduler，这次我来给我的 Userspace OS 设计文件系统（后来发现不一定得是文件系统）。
 
 ## 1. 对传统文件系统的反思
 
